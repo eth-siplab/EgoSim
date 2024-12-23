@@ -1,5 +1,16 @@
-# EgoSim : A Multimodal Egocentric Simulator for Body-Worn Cameras
-EgoSim is fork of the [AirSim simulator](https://github.com/Microsoft/AirSim) extended to simulate avatars. It supports all the features of AirSim in Unreal Engine.
+# EgoSim: An Egocentric Multi-view Simulator and Real Dataset for Body-worn Cameras during Motion and Activity (NeurIPS 2024)
+[Dominik Hollidt](https://dominikvincent.github.io/), [Paul Streli](https://paulstreli.com/), [Jiaxi Jiang](https://jiaxi-jiang.com/), [Yasaman Haghighi](https://ch.linkedin.com/in/yasaman-haghighi), [Changlin Qian](https://ch.linkedin.com/in/changlin-qian-57901616bF), [Xintong Liu](https://ch.linkedin.com/in/xintong-liu-2b022b135), [Christian Holz](https://www.christianholz.net)<br/>
+[Sensing, Interaction & Perception Lab](https://siplab.org), Department of Computer Science, ETH Zürich, Switzerland <br/>
+
+<p align="center">
+<img src="figures/teaser.gif" width="1200">
+</p>
+
+___________
+
+This repository contains the code of EgoSim, a novel simulator of body-worn cameras that generates realistic egocentric renderings from multiple perspectives across a wearer's body.
+EgoSim supports real-world motion capture data for rendering realistic images.
+EgoSim is an extension of the [AirSim simulator](https://github.com/Microsoft/AirSim) to simulate avatars. It supports all the features of AirSim in Unreal Engine.
 
 ## Install
 First, build the project using build.cmd / build.sh. Then, build the UE project. [more detailed instruction](https://github.com/Microsoft/AirSim)
