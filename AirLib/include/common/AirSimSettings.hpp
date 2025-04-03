@@ -105,6 +105,13 @@ namespace airlib
             bool socket_with_spring5;
             bool socket_with_spring6;
 
+            float lag_speed1;
+            float lag_speed2;
+            float lag_speed3;
+            float lag_speed4;
+            float lag_speed5;
+            float lag_speed6;
+
             double vel_std_dev1;
             double vel_std_dev2;
             double vel_std_dev3;
@@ -955,6 +962,13 @@ namespace airlib
             vehicle_setting->vehicle_character_defaults.socket_with_spring4 = settings_json.getBool("Spring4", false);
             vehicle_setting->vehicle_character_defaults.socket_with_spring5 = settings_json.getBool("Spring5", false);
             vehicle_setting->vehicle_character_defaults.socket_with_spring6 = settings_json.getBool("Spring6", false);
+
+            vehicle_setting->vehicle_character_defaults.lag_speed1 = settings_json.getFloat("LagSpeed1", 10.0);
+            vehicle_setting->vehicle_character_defaults.lag_speed2 = settings_json.getFloat("LagSpeed2", 10.0);
+            vehicle_setting->vehicle_character_defaults.lag_speed3 = settings_json.getFloat("LagSpeed3", 10.0);
+            vehicle_setting->vehicle_character_defaults.lag_speed4 = settings_json.getFloat("LagSpeed4", 10.0);
+            vehicle_setting->vehicle_character_defaults.lag_speed5 = settings_json.getFloat("LagSpeed5", 10.0);
+            vehicle_setting->vehicle_character_defaults.lag_speed6 = settings_json.getFloat("LagSpeed6", 10.0);
 
             vehicle_setting->vehicle_character_defaults.vel_std_dev1 = settings_json.getDouble("AngulerVel_std1", 0.0);
             vehicle_setting->vehicle_character_defaults.vel_std_dev2 = settings_json.getDouble("AngulerVel_std2", 0.0);
