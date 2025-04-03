@@ -2,9 +2,28 @@
 [Dominik Hollidt](https://dominikvincent.github.io/), [Paul Streli](https://paulstreli.com/), [Jiaxi Jiang](https://jiaxi-jiang.com/), [Yasaman Haghighi](https://ch.linkedin.com/in/yasaman-haghighi), [Changlin Qian](https://ch.linkedin.com/in/changlin-qian-57901616bF), [Xintong Liu](https://ch.linkedin.com/in/xintong-liu-2b022b135), [Christian Holz](https://www.christianholz.net)<br/>
 [Sensing, Interaction & Perception Lab](https://siplab.org), Department of Computer Science, ETH Zürich, Switzerland <br/>
 
+[![arXiv](https://img.shields.io/badge/arXiv-2502.18373-b31b1b.svg)](https://arxiv.org/pdf/2502.18373)
+[![Hugging Face](https://img.shields.io/badge/HuggingFace-Paper-blue.svg)](https://huggingface.co/papers/2502.18373)
+[![Project Page](https://img.shields.io/badge/Project-EgoSim-4b8bbe.svg)](https://siplab.org/projects/EgoSim)
+[![Dataset](https://img.shields.io/badge/Dataset-EgoSim-9cf.svg)](https://dataset.egosim.inf.ethz.ch/)
+
+
+
 <p align="center">
 <img src="figures/teaser.gif" width="1200">
 </p>
+You can cite EgoSim like this:
+
+```
+@article{hollidt2024egosim,
+  title={Egosim: An egocentric multi-view simulator and real dataset for body-worn cameras during motion and activity},
+  author={Hollidt, Dominik and Streli, Paul and Jiang, Jiaxi and Haghighi, Yasaman and Qian, Changlin and Liu, Xintong and Holz, Christian},
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={106607--106627},
+  year={2024}
+}
+```
 
 ___________
 
