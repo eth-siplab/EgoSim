@@ -6,8 +6,7 @@
 [![Hugging Face](https://img.shields.io/badge/HuggingFace-Paper-blue.svg)](https://huggingface.co/papers/2502.18373)
 [![Project Page](https://img.shields.io/badge/Project-EgoSim-4b8bbe.svg)](https://siplab.org/projects/EgoSim)
 [![Dataset](https://img.shields.io/badge/Dataset-EgoSim-9cf.svg)](https://dataset.egosim.inf.ethz.ch/)
-
-
+[![Dataset Huggingface (real subset & code)](https://img.shields.io/badge/Dataset%20EgoSim-Huggingface-9cf.svg)](https://huggingface.co/datasets/eth-siplab/MultiEgoView)
 
 <p align="center">
 <img src="figures/teaser.gif" width="1200">
